@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-gest-produit',
-  templateUrl: './gest-produit.component.html',
-  styleUrls: ['./gest-produit.component.scss']
+  templateUrl: './show-product.component.html',
+  styleUrls: ['./show-product.component.scss']
 })
-export class GestProduitComponent implements OnInit {
+export class ShowProductComponent implements OnInit {
 
   constructor() { }
 

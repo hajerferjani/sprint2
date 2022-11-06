@@ -3,16 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { MenuComponent } from './menu/menu.component';
-import { PanierComponent } from './panier/panier.component';
-import { DashbordComponent } from './backoffice/dashbord/dashbord.component';
-import { GestProduitComponent } from './backoffice/gest-produit/gest-produit.component';
+import { AddProductComponent } from './backoffice/add-product/add-product.component';
+import { BackfooterComponent } from './backoffice/backfooter/backfooter.component';
+import { BackloginComponent } from './backoffice/backlogin/backlogin.component';
 import { BacknavbarComponent } from './backoffice/backnavbar/backnavbar.component';
 import { BacksidebarComponent } from './backoffice/backsidebar/backsidebar.component';
-import { BackfooterComponent } from './backoffice/backfooter/backfooter.component';
+import { DashbordComponent } from './backoffice/dashbord/dashbord.component';
+import { ShowProductComponent } from './backoffice/show-product/show-product.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { MenuComponent } from './menu/menu.component';
+import { PanierComponent } from './panier/panier.component';
+import { ProduitComponent } from './produit/produit.component';
+import { RegisterComponent } from './register/register.component';
+
+
 
 
 
@@ -24,12 +31,16 @@ import { HomeComponent } from './home/home.component';
     MenuComponent,
     PanierComponent,
     DashbordComponent,
-    GestProduitComponent,
+    ShowProductComponent,
     BacknavbarComponent,
     BacksidebarComponent,
     BackfooterComponent,
-    HomeComponent
-
+    HomeComponent,
+    BackloginComponent,
+    ConnexionComponent,
+    RegisterComponent,
+    AddProductComponent,
+    ProduitComponent
 
   ],
   imports: [
